@@ -1,4 +1,5 @@
-# Load the required library
+###A1###
+#Load the required library
 library(markovchain)
 
 # --- Define the Transition Matrix ---
@@ -107,6 +108,7 @@ is.irreducible(mc_A2)
 #Define the Matrices
 states_traffic <- c("light", "heavy", "jammed")
 
+####A3####
 # Using your corrected value of 0.4 for row 2, column 2 
 P_1to4 <- matrix(c(
   0.4, 0.4, 0.2,
